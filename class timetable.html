@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f6fa;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        button {
+            background: #4a90e2;
+            color: white;
+            padding: 12px;
+            width: 100%;
+            border: none;
+            border-radius: 6px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #2e73c2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Job Application Form</h2>
+
+    <form action="https://formsubmit.co/johnsonkodakara111@gmail.com" method="POST">
+
+        <input type="text" name="Full Name" placeholder="Full Name" required>
+
+        <input type="email" name="Email" placeholder="Email Address" required>
+
+        <input type="text" name="Phone" placeholder="Phone Number" required>
+
+        <select name="Job Position" required>
+            <option value="">Select Job Position</option>
+            <option value="Manager">Manager</option>
+            <option value="Sales Executive">Sales Executive</option>
+            <option value="Office Staff">Office Staff</option>
+            <option value="Driver">Driver</option>
+        </select>
+
+        <textarea name="Message" rows="4" placeholder="Why should we hire you?" required></textarea>
+
+        <button type="submit">Submit Application</button>
+
+        <!-- Optional settings -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+    </form>
+</div>
+
+</body>
+</html>
